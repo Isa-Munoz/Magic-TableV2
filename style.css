@@ -30,9 +30,9 @@ body.background {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url('./images/background.png'); /* Cambia la ruta a la ubicación de tu imagen */
     background-size: cover;
     color: #ffffff; /* Color de texto en el fondo de la imagen */
+    background-image: url('./images/background.png'); /* Cambia la ruta a la ubicación de tu imagen */
 }
 
 .menu a {
@@ -154,6 +154,27 @@ footer p {
     font-family: cursive;
     font-size: 9px;
     margin: 0;
+}
+
+#registro{
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    color: #ffffff; /* Color de texto en el fondo de la imagen */
+    background-image: url('./images/background.png'); /* Cambia la ruta a la ubicación de tu imagen */
+}
+
+body.content{
+    background-image: url('./images/background.png'); /* Cambia la ruta a la ubicación de tu imagen */
 }
 
 

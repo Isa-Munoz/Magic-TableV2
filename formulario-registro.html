@@ -8,9 +8,34 @@
     <link rel="icon" href="./images/cubiertos.png" type="image/png">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+
+<body class="background">
+    <header>
+        <div id="logo-div">
+            <img src="./images/logo_white.png" class="logo">
+        </div>
+        
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+    
+        </label>
+        <nav class="menu">
+            <a href="magic-table.html">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Restaurantes</a>
+            <a href="#">Ordenar</a>
+            <a href="#">Cuenta</a>
+            <a href="formulario-registro.html">Inicio sesión</a>
+        </nav>
+    </header>
+    <div class="content">
+        <div>
+            <img src="./images/welcome-font.png" class="welcome-font">
+        </div>
+        <!-- Contenido de tu página -->
+    </div>
     <div id="registro">
-        <form action="formulario-registro.html" method="get">
+        <form action="formulario-registro.html" method="get"><br>
             <h1 id="registrate">Regístrate</h1><br>
             <p>Usuario: <input type="text" name="usuario" maxlength="15" size="20"></p><br>
             <p>Correo: <input type="text" name="correo" maxlength="30" size="30"></p><br>
@@ -22,5 +47,8 @@
             </p>
         </form>
     </div>
+    <footer>
+        <p>Correo electrónico: tu-correo@example.com</p>
+    </footer>
 </body>
 </html>
